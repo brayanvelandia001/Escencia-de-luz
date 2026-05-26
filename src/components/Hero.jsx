@@ -114,7 +114,7 @@ export default function Hero() {
 
         {/* TITULO */}
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-orange-200 via-pink-300 to-purple-300 bg-clip-text text-transparent">
-          Velas que iluminan tu alma
+          Velas hechas con amor para cada ocasión
         </h1>
 
         {/* DESCRIPCIÓN */}

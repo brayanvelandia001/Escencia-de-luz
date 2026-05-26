@@ -3,7 +3,7 @@ import { FaInstagram, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 export default function Footer() {
 
   const whatsapp = "573164334985";
-  const mensaje = "Hola 👋 quiero información sobre las velas de Esencia de Luz";
+  const mensaje = "Hola! quiero información sobre las velas de Esencia de Luz";
   const waLink = `https://wa.me/${whatsapp}?text=${encodeURIComponent(mensaje)}`;
 
   return (
