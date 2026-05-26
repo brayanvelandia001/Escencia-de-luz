@@ -98,7 +98,20 @@ export default function SplashScreen({ onFinish }) {
         <p className="mt-6 text-gray-400 text-sm animate-pulse">
           Preparando aroma, luz y ambiente...
         </p>
+          <div className="mt-10 flex flex-col items-center gap-1 opacity-80">
+
+            <span className="text-[10px] tracking-[0.4em] text-gray-500 uppercase">
+                designed & developed by
+            </span>
+
+            <span className="text-sm font-bold bg-gradient-to-r from-pink-300 via-orange-200 to-purple-300 bg-clip-text text-transparent">
+                Velandia Soft
+            </span>
+
+            <div className="w-10 h-[1px] bg-white/10 mt-2" />
+            </div>
+
       </div>
     </div>
   );
-}
+}   
